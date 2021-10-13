@@ -18,10 +18,10 @@ public class Main {
         System.out.println(totalPrice(booksList));
 
     }
-    public static double totalPrice(Book[] booksArray){
-        double total=0;
-        for(int i=0;i<booksArray.length;i++){
-            total+=booksArray[i].getPrice()* booksArray[i].getQuantity();
+    public static double totalPrice(Book[] booksArray) {
+        double total = 0;
+        for (int i = 0; i < booksArray.length; i++) {
+            total += booksArray[i].getPrice() * booksArray[i].getQuantity();
         }
         return total;
     }
